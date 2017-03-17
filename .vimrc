@@ -6,3 +6,9 @@ syntax enable
 
 " enable loading filetype plugins
 filetype plugin on
+
+" finding files in all subdirs beneath cwd
+set path+=**
+
+" display all matching files when we tab complete
+set wildmenu
